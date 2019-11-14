@@ -39,3 +39,17 @@ Key points:
 - The compiler infers the array’s type from its items. You can explicitly define an array’s type like this: `var myArray: Array<Byte>`
 - If you define an array using val, you can still update the items in the array.
 - String templates provide a quick and easy way of referring to a variable or evaluating an expression from inside a String.
+
+
+## Chapter 3. Functions: Getting Out of Main
+
+Key points:
+- Use functions to organize your code and make it more reusable.
+- A function can have parameters, so you can pass more than one value to it.
+- The number and type of values you pass to the function must match the order and type of the parameters declared by the function.
+- A function can return a value. You must define the type of value (if any) it returns.
+- A `Unit` return type means that the function doesn’t return anything.
+- Choose for loops over while loops when you know how many times you want to repeat the loop code.
+- The `readLine()` function reads a line of input from the standard input stream. It returns a `String` value, the text entered by the user.
+- If the input stream has been redirected to a file and the end of the file has been reached, the `readLine()` function returns `null`. `null` means it has no value, or it’s missing.
+- `&&` means “and”. `||` means “or”. `!` means “not”.
